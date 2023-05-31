@@ -1,0 +1,401 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+.header{
+  height: 650px;
+  display: grid;
+  grid-template-rows:30% 15% 25% 30% ;
+  background-image:url(Images/Discord-BG.jpg );
+  background-repeat: no-repeat;
+  background-size: 102%;
+
+ 
+}
+.menu-bar{
+  background-color: rgba(65,78,236,255);
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  
+ 
+  
+}
+
+.logo img{
+padding-right: 80px;
+ margin-top: 25px;
+ 
+}
+.menu-list{
+  padding-top: 25px;
+  
+  font-family: 'Poppins', sans-serif;
+  padding-left: 40px;
+  
+}
+.menu-list a{
+  margin-left: 18px;
+  color: white;
+  text-decoration:none;
+
+
+}
+.menu-list a:hover{
+ text-decoration: underline;
+
+}
+.login-btn{
+ padding-top: 25px;
+;
+
+}
+.login-btn button{
+  margin-left: 200px;
+  width: 65px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: transparent;
+  cursor: pointer;
+
+
+}
+.login-btn button:hover{
+  color: blue;
+  box-shadow: 8px 9px 12px 5px rgba(48, 84, 155, 0.558);
+  opacity: 0.9;
+
+}
+.button-select{
+ 
+  text-align: center;
+ 
+  
+}
+.dwd-btn{
+  margin-right: 8px;
+  width: 300px;
+  height: 55px;
+  border-radius: 30px;
+  border-color: transparent;
+  font-size: 18px
+  
+}
+.dwd-btn:hover{
+  color: blue;
+  transition: 0.5s;
+  box-shadow: 5px 8px 25px 8px rgba(48, 84, 155, 0.558);
+}
+
+.open-btn{
+  margin-left: 8px;
+  width: 300px;
+  height: 55px;
+  border-radius: 30px;
+  border-color: transparent;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+.open-btn:hover{
+  box-shadow: 5px 8px 25px 8px rgba(48, 84, 155, 0.558);
+  opacity: 0.75;
+  transition: 0.5s;
+}
+
+.welcome-text{
+
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 35px;
+  color: white;
+ 
+
+}
+.paragraph{
+  
+  text-align: center;
+  padding-left: 380px;
+  padding-right: 350px;
+  padding-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 38px;
+  
+
+}
+
+.button-select button{
+  margin-top: 20px;
+  
+}
+.first-column{
+  display: grid;
+  grid-template-columns:60% 40% ;
+  width: 100%;
+  height: 670px;
+  
+  
+}
+.first-img{
+  
+  padding-top: 125px;
+  padding-left: 180px;
+}
+
+.first-text h1{
+  font-family: 'Kumbh Sans', sans-serif;
+  padding-inline-start: 55px;
+  padding-inline-end: 150px;
+  padding-top: 180px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.850);
+  line-height: 50px;
+}
+.first-text p{
+  padding-top: 25px;
+  padding-inline-start: 55px;
+  padding-inline-end: 220px;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(0, 0, 0, 0.850);
+ 
+}
+.second-column{
+  display: grid;
+  grid-template-columns:40% 60% ;
+  width: 100%;
+  height: 670px;
+  
+  background-color: rgba(247,246,247,255);
+  
+}
+
+.second-img{
+ 
+  padding-inline-start: 75px;
+  padding-top: 100px;
+}
+.second-text h1{
+  font-family: 'Kumbh Sans', sans-serif;
+  padding-inline-start: 150px;
+  padding-inline-end: 150px;
+  padding-top: 180px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.850);
+  line-height: 50px;
+}
+.second-text p{
+  padding-top: 25px;
+  padding-inline-start: 150px;
+  padding-inline-end: 120px;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(0, 0, 0, 0.850);
+ 
+}
+.third-column{
+  display: grid;
+  grid-template-columns:60% 40% ;
+  width: 100%;
+  height: 670px;
+  
+  
+}
+.third-img{
+  
+  padding-top: 125px;
+  padding-left: 180px;
+}
+
+.third-text h1{
+  font-family: 'Kumbh Sans', sans-serif;
+  padding-inline-start: 55px;
+  padding-inline-end: 150px;
+  padding-top: 180px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.850);
+  line-height: 50px;
+}
+.third-text p{
+  padding-top: 25px;
+  padding-inline-start: 55px;
+  padding-inline-end: 220px;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(0, 0, 0, 0.850);
+ 
+}
+.fourth-column{
+  display: grid;
+  grid-template-rows: 22% 57% 20%;
+  width: 100%;
+  height: 1400px; 
+  background-color: rgba(247,246,247,255);
+
+}
+
+.fourth-text h1{
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 50px;
+  padding-top: 125px;
+
+}
+.fourth-text p{
+  text-align: center;
+  padding-top: 20px;
+  padding-inline-start: 300px;
+  padding-inline-end: 300px;
+  line-height: 30px;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(0, 0, 0, 0.850);
+  font-size:18px;
+}
+.fourth-img img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.fourth-dwnd img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  
+
+}
+.fourth-dwnd h2{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+.dwd-btn-2{
+  margin-right: 8px;
+  width: 300px;
+  height: 55px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: white;
+  font-size: 18px;
+  background-color:rgba(65,79,237,255) ;
+  
+}
+button i{
+  padding-right: 8px;
+  
+}
+.dwd-btn-2:hover{
+  opacity: 0.8;
+  transition: 0.5s;
+  box-shadow: 5px 8px 25px 8px rgba(48, 84, 155, 0.558);
+}
+.footer{
+  background-color: rgba(34,38,42,255);
+  height: 600px;
+  width: 100%;
+  
+
+  
+}
+.footer-inner{
+  color: white;
+  height: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: grid;
+  grid-template-rows: 80% 20%;
+ 
+
+}
+.footer-content{
+  
+ margin-top: 70px;
+ display: grid;
+ grid-template-columns: 30% 17.5% 17.5% 17.5% 17.5%;
+
+
+}
+
+.footer-content {
+  border-bottom: 1px solid rgba(65,79,237,255) ;
+ font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2px; 
+}
+.footer-content p {
+color:rgba(65,79,237,255) ;
+padding-bottom: 25px;
+}
+.footer-content a{
+  padding-bottom: 105px;
+  color: white;
+  text-decoration:none;
+  line-height: 32px;
+
+}
+.footer-content a:hover{
+  text-decoration:underline;
+}
+
+.footer-signup{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.footer-logo{
+  padding-top: 35px;
+  padding-left: 5px;
+  cursor: pointer;
+  
+}
+.footer-btn{
+  padding-top: 30px;
+  text-align: end;
+}
+.footer-btn button{
+  
+  margin-left: 200px;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: transparent;
+  cursor: pointer;
+  background-color: rgba(65,79,237,255);
+  color: white;
+  
+}
+.footer-btn button:hover{
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.select-lang{
+  padding-top: 25px;
+}
+.select-lang select{
+  background-color: transparent;
+ color: white;
+ border-color: transparent;
+ width: 110px;
+ 
+}
+.select-lang option{
+  color: black;
+}
+.icons{
+  padding-top: 35px;
+  display: grid;
+  grid-template-columns:auto auto auto auto auto  ;
+  margin-right: 125px;
+}
+.icons i{
+  cursor: pointer;
+ 
+}
+ 
+
